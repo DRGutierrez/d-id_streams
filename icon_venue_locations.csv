@@ -1,0 +1,71 @@
+venue,id,deck,location,venue_name,category,secondary_lounge,total_seat_count,sqm,space_id,x_coordinate,y_coordinate,SVG Filename,isSticker,layer,svgWidth,svgHeight
+Port Shopping Desk,19,5,Midship Starboard,Port Shopping Desk,OBR,N,0,305,IC_05_19_MidshipStarboard,1944,441,IC_05_19_MidshipStarboard_PortShoppingDesk,FALSE,19,29,62
+Spotlight Karaoke Bar,26,5,Midship Starboard,Spotlight Karaoke Bar,Beverage,Y,20,305,IC_05_26_MidshipStarboard,2434,443,IC_05_26_MidshipStarboard_SpotlightKaraokeBar,FALSE,26,36,104
+Music Hall Bar,6,4,Midship,Music Hall Bar,Beverage,N,20,305,IC_04_06_Midship,2549,397,IC_04_06_Midship_MusicHallBar,FALSE,6,61,60
+Promo Island,20,5,Midship,Promo Island,OBR,N,0,305,IC_05_20_Midship,2263,303,IC_05_20_Midship_PromoIsland,FALSE,20,66,26
+Group - Absolute Zero,S2,5,Aft,Absolute Zero Group Event,Cruise Programs,N,0,0,IC_05_S2_Aft,623,429,IC_05_S2_Aft_Group-AbsoluteZero,TRUE,99,70,70
+Art Auction - Comedy,S13,5,Midship Starboard,Art Auction,OBR,N,0,0,IC_05_S13_MidshipStarboard,2492,495,IC_05_S13_MidshipStarboard_ArtAuction-Comedy,TRUE,99,70,70
+Casino Bar,4,4,Midship,Casino Bar,Beverage,N,20,305,IC_04_04_Midship,2128,335,IC_04_04_Midship_CasinoBar,FALSE,4,70,82
+Group - Comedy Club,S9,6,Midship Port,Comedy Club Group Event,Entertainment,N,0,0,IC_06_S9_MidshipPort,2455,214,IC_06_S9_MidshipPort_Group-ComedyClub,TRUE,99,70,70
+Dancers - Boleros ,S8,6,Midship Port,Dancers in Boleros,Entertainment,N,0,0,IC_06_S8_MidshipPort,1858,216,IC_06_S8_MidshipPort_Dancers-Boleros,TRUE,99,70,70
+Dancers - Pianos,S19,6,Midship Starboard,Dueling Pianos Dancers,Entertainment,N,0,0,IC_06_S19_MidshipStarboard,2658,456,IC_06_S19_MidshipStarboard_Dancers-Pianos,TRUE,99,70,70
+Group - Giovannis,S21,6,Midship Starboard,Giovanni's Group Event,Cruise Programs,N,0,0,IC_06_S21_MidshipStarboard,2147,492,IC_06_S21_MidshipStarboard_Group-Giovannis,TRUE,99,70,70
+Group - Karaoke,S3,5,Midship Starboard,Karaoke Group Event,Cruise Programs,N,0,0,IC_05_S3_MidshipStarboard,2631,469,IC_05_S3_MidshipStarboard_Group-Karaoke,TRUE,99,70,70
+Lecturer - Abs Zero,S12,4,Aft,Lecturer in Absolute Zero,Cruise Programs,N,0,0,IC_04_S12_Aft,542,355,IC_04_S12_Aft_Lecturer-AbsZero,TRUE,99,70,70
+Group - Main Theatre,S1,4,Forward,Main Theatre Group Event,Cruise Programs,N,0,0,IC_04_S1_Forward,3037,474,IC_04_S1_Forward_Group-MainTheatre,TRUE,99,70,70
+Dancers - Music Hall,S11,4,Midship,Music Hall Dancers,Entertainment,N,0,0,IC_04_S11_Midship,2416,390,IC_04_S11_Midship_Dancers-MusicHall,TRUE,99,70,70
+Band - Casino,S10,4,Midship,Music in Casino,Entertainment,N,0,0,IC_04_S10_Midship,2055,374,IC_04_S10_Midship_Band-Casino,TRUE,99,70,70
+Band - Pearl Cafe,S18,6,Midship Port,Music in Pearl Cafe,Entertainment,N,0,0,IC_06_S18_MidshipPort,2205,181,IC_06_S18_MidshipPort_Band-PearlCafe,TRUE,99,70,70
+Band - English Pub,S14,5,Midship Starboard,Music in Pub,Entertainment,N,0,0,IC_05_S14_MidshipStarboard,1843,493,IC_05_S14_MidshipStarboard_Band-EnglishPub,TRUE,99,70,70
+Photo,S4,5,Aft,Photo Pop-up,OBR,N,0,0,IC_05_S4_Aft,1833,319,IC_05_S4_Aft_Photo,TRUE,99,70,70
+Photo,S5,5,Forward,Photo Pop-up,OBR,N,0,0,IC_05_S5_Forward,2422,357,IC_05_S5_Forward_Photo,TRUE,99,70,70
+Photo,S17,6,Midship,Photo Pop-up Mezz,OBR,N,0,0,IC_06_S17_Midship,2600,346,IC_06_S17_Midship_Photo,TRUE,99,70,70
+Photo,S20,5,Midship,Photo Pop-up Pearl,OBR,N,0,0,IC_05_S20_Midship,2062,285,IC_05_S20_Midship_Photo,TRUE,99,70,70
+Retail Pop-up,S6,5,Midship,Retail Pop-up,OBR,N,0,0,IC_05_S6_Midship,2172,277,IC_05_S6_Midship_RetailPop-up,TRUE,99,70,70
+Band - Schooner Bar,S7,6,Midship Starboard,Schooner Bar Live Band,Entertainment,N,0,0,IC_06_S7_MidshipStarboard,1855,477,IC_06_S7_MidshipStarboard_Band-SchoonerBar,TRUE,99,70,70
+Fashion Watches,10,5,Midship,Fashion Watches,OBR,N,0,305,IC_05_10_Midship,1582,307,IC_05_10_Midship_FashionWatches,FALSE,10,71,109
+The Collection,28,5,Midship,The Collection,OBR,N,0,305,IC_05_28_Midship,2291,397,IC_05_28_Midship_TheCollection,FALSE,28,77,60
+Regalia,21,5,Midship Port,Regalia Fine Jewelry,OBR,N,0,305,IC_05_21_MidshipPort,2552,165,IC_05_21_MidshipPort_Regalia,FALSE,21,79,109
+Starbucks,27,5,Midship Starboard,Starbucks,Beverage,N,0,305,IC_05_27_MidshipStarboard,2190,414,IC_05_27_MidshipStarboard_Starbucks,FALSE,27,81,102
+Next Cruise,17,5,Midship Starboard,Next Cruise,OBR,N,0,305,IC_05_17_MidshipStarboard,1680,416,IC_05_17_MidshipStarboard_NextCruise,FALSE,17,91,118
+Dueling Pianos Bar,44,6,Midship Starboard,Dueling Pianos Bar,Beverage,N,10,305,IC_06_44_MidshipStarboard,2551,464,IC_06_44_MidshipStarboard_DuelingPianosBar,FALSE,44,98,29
+Solera Beauty,23,5,Midship Port,Solera Beauty,OBR,N,0,305,IC_05_23_MidshipPort,2629,165,IC_05_23_MidshipPort_SoleraBeauty,FALSE,23,98,148
+Port Merchants,18,5,Midship Port,Port Merchants,OBR,N,0,305,IC_05_18_MidshipPort,1652,165,IC_05_18_MidshipPort_PortMerchants,FALSE,18,100,142
+Shop Guide,S16,5,Forward,Port Shopping Guide,OBR,N,0,0,IC_05_S16_Forward,3052,322,IC_05_S16_Forward_ShopGuide,TRUE,99,126,78
+Shop Guide,S22,5,Midship Starboard,Port Shopping Guide Lobby Bar,OBR,N,0,0,IC_05_S22_MidshipStarboard,1953,489,IC_05_S22_MidshipStarboard_ShopGuide,TRUE,99,126,78
+Parade Prom,S15,5,Midship,Promenade Parade,Entertainment,N,0,0,IC_05_S15_Midship,2016,362,IC_05_S15_Midship_ParadeProm,TRUE,99,140,60
+English Pub,9,5,Midship Starboard,English Pub,Beverage,N,98,305,IC_05_09_MidshipStarboard,1771,407,IC_05_09_MidshipStarboard_EnglishPub,FALSE,2,144,158
+Escape Room,45,6,Forward,Escape Room,Cruise Programs,N,0,305,IC_06_45_Forward,2858,300,IC_06_45_Forward_EscapeRoom,FALSE,45,150,73
+Logo Store,14,5,Midship Port,Logo Store,OBR,N,0,305,IC_05_14_MidshipPort,2185,165,IC_05_14_MidshipPort_LogoStore,FALSE,2,153,138
+Sorrento's,24,5,Midship Port,Sorrento's Pizza,Dining (Comp),N,80,305,IC_05_24_MidshipPort,2397,214,IC_05_24_MidshipPort_Sorrentos,FALSE,24,155,138
+AO Arena,30,6,Aft,AO Arena,Cruise Programs,N,0,305,IC_06_30_Aft,543,122,IC_06_30_Aft_AOArena,FALSE,31,156,167
+Guest Services,11,5,Midship Port,Guest Services,Guest Services,N,0,305,IC_05_11_MidshipPort,1749,165,IC_05_11_MidshipPort_GuestServices,FALSE,11,169,126
+Playmakers Retail,37,6,Aft,Playmakers Retail,OBR,N,0,305,IC_06_37_Aft,1158,379,IC_06_37_Aft_PlaymakersRetail,FALSE,37,174,95
+Spin Studio,48,6,Forward,Spin Studio,Cruise Programs,N,0,305,IC_06_48_Forward,3216,473,IC_06_48_Forward_SpinStudio,FALSE,48,184,162
+Diamond Club,46,6,Forward,Diamond Club,Guest Services,N,55,305,IC_06_46_Forward,2857,365,IC_06_46_Forward_DiamondClub,FALSE,46,198,109
+AO Babies,34,6,Aft,AO Babies,Cruise Programs,N,0,305,IC_06_34_Aft,907,181,IC_06_34_Aft_AOBabies,FALSE,34,205,108
+ShoreEx/ Photo,22,5,Midship Port,ShoreEx/ Photo,OBR,N,0,305,IC_05_22_MidshipPort,1982,147,IC_05_22_MidshipPort_ShoreEx/Photo,FALSE,22,207,93
+AO Workshop,32,6,Aft,AO Workshop,Cruise Programs,N,0,305,IC_06_32_Aft,699,181,IC_06_32_Aft_AOWorkshop,FALSE,33,208,108
+Lobby Bar,13,5,Midship Starboard,Lobby Bar,Beverage,N,90,305,IC_05_13_MidshipStarboard,1976,478,IC_05_13_MidshipStarboard_LobbyBar,FALSE,13,219,104
+AO Teens Club,31,6,Aft,AO Teens Club,Cruise Programs,N,0,305,IC_06_31_Aft,542,342,IC_06_31_Aft_AOTeensClub,FALSE,30,240,299
+Playmakers,36,6,Aft,Playmakers,Dining (Spec),N,146,305,IC_06_36_Aft,907,358,IC_06_36_Aft_Playmakers,FALSE,36,251,224
+Schooner Bar,39,6,Midship Starboard,Schooner Bar,Beverage,Y,99,305,IC_06_39_MidshipStarboard,1680,428,IC_06_39_MidshipStarboard_SchoonerBar,FALSE,39,252,154
+Spotlight Karaoke,25,5,Midship Starboard,Spotlight Karaoke,Entertainment,Y,102,305,IC_05_25_MidshipStarboard,2448,456,IC_05_25_MidshipStarboard_SpotlightKaraoke,FALSE,25,255,109
+Dueling Pianos,43,6,Midship Starboard,Dueling Pianos,Entertainment,N,102,305,IC_06_43_MidshipStarboard,2472,447,IC_06_43_MidshipStarboard_DuelingPianos,FALSE,43,256,135
+AO Hangout,33,6,Aft,AO Hangout,Cruise Programs,N,0,305,IC_06_33_Aft,645,289,IC_06_33_Aft_AOHangout,FALSE,30,262,100
+Boleros,38,6,Midship Port,Boleros,Beverage,Y,85,305,IC_06_38_MidshipPort,1658,181,IC_06_38_MidshipPort_Boleros,FALSE,38,274,167
+Music Hall,5,4,Midship,Music Hall,Entertainment,Y,328,305,IC_04_05_Midship,2393,237,IC_04_05_Midship_MusicHall,FALSE,5,279,242
+Giovannis Italian Kitchen,40,6,Midship Starboard,Giovannis Italian Kitchen,Dining (Spec),N,113,305,IC_06_40_MidshipStarboard,1932,435,IC_06_40_MidshipStarboard_GiovannisItalianKitchen,FALSE,40,308,147
+Gym,12,5,Forward,Gym,Cruise Programs,N,0,305,IC_05_12_Forward,3320,123,IC_05_12_Forward_Gym,FALSE,12,322,485
+Absolute Zero,1,4,Aft,Absolute Zero ,Entertainment,Y,500,305,IC_04_01_Aft,365,150,IC_04_01_Aft_AbsoluteZero,FALSE,1,334,482
+Comedy Club,42,6,Midship Port,Comedy Club,Entertainment,Y,154,305,IC_06_42_MidshipPort,2416,181,IC_06_42_MidshipPort_ComedyClub,FALSE,42,346,140
+Pearl Cafe,41,6,Midship Port,Pearl Cafe,Dining (Spec),N,95,305,IC_06_41_MidshipPort,1931,94,IC_06_41_MidshipPort_PearlCafe,FALSE,41,361,174
+Yoga Studio,47,6,Forward,Yoga Studio,Cruise Programs,N,0,305,IC_06_47_Forward,2855,473,IC_06_47_Forward_YogaStudio,FALSE,47,361,108
+Absolute Zero,8,5,Aft,Absolute Zero ,Entertainment,Y,385,305,IC_05_08_Aft,365,178,IC_05_08_Aft_AbsoluteZero,FALSE,2,417,375
+AO Junior,35,6,Aft,AO Junior,Cruise Programs,N,0,305,IC_06_35_Aft,907,288,IC_06_35_Aft_AOJunior,FALSE,35,425,94
+Main Dining,15,5,Aft,Main Dining ,Dining (Comp),N,606,305,IC_05_15_Aft,907,164.5,IC_05_15_Aft_MainDining,FALSE,15,425,401
+Main Theatre,16,5,Forward,Main Theatre ,Entertainment,Y,300,305,IC_05_16_Forward,2855,185.5,IC_05_16_Forward_MainTheatre,FALSE,16,519,374
+Absolute Zero,29,6,Aft,Absolute Zero ,Entertainment,Y,0,305,IC_06_29_Aft,371,147,IC_06_29_Aft_AbsoluteZero,FALSE,29,536,421
+Main Theatre,7,4,Forward,Main Theatre ,Entertainment,Y,500,305,IC_04_07_Forward,2855,151,IC_04_07_Forward_MainTheatre,FALSE,7,545,478
+Main Dining,2,4,Aft,Main Dining ,Dining (Comp),N,1068,305,IC_04_02_Aft,908,150,IC_04_02_Aft_MainDining,FALSE,2,586,483
+Casino,3,4,Midship,Casino,OBR,N,284,305,IC_04_03_Midship,1648,237,IC_04_03_Midship_Casino,FALSE,3,746,307

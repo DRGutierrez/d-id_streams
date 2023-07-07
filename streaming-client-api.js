@@ -62,9 +62,16 @@ talkButton.onclick = async () => {
  
   if (peerConnection?.signalingState === 'stable' || peerConnection?.iceConnectionState === 'connected') {
     // Fetch the user input from an external text file
+    const scriptHiPath = new URL('name.txt', import.meta.url).pathname;
+    const hiresponse = await fetch(scriptHiPath);
+    hitext = await hiresponse.text(); // Get the text from the response
+
     const scriptPath = new URL('response-text-file.txt', import.meta.url).pathname;
-    const response = await fetch(scriptPath);  
-    const userInput = await response.text(); // Get the text from the response
+    const response = await fetch(scriptPath); 
+    responseInput = await response.text(); // Get the text from the response
+
+    const userInput = hitext+responseInput//`${additionalText}${responseInput}`;
+    //const userInput = await response.text(); // Get the text from the response
     
     const talkResponse = await fetch(`${DID_API.url}/talks/streams/${streamId}`, {
       method: 'POST',
