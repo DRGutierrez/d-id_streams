@@ -31,7 +31,7 @@ connectButton.onclick = async () => {
     method: 'POST',
     headers: {'Authorization': `Basic ${DID_API.key}`, 'Content-Type': 'application/json'},
     body: JSON.stringify({
-      source_url: "https://cdn.midjourney.com/075b85f5-fe25-4cbd-9680-9655ce2bd8b7/0_1.png"
+      source_url: "https://media.discordapp.net/attachments/1123689457107877941/1123737508434411530/RCGHacks_Royal_caribbean_international_virtual_assistant_female_621420b0-bf06-41fe-bf18-b0995e0cea31.png?width=540&height=540"
     }),
   });
 
@@ -70,7 +70,7 @@ talkButton.onclick = async () => {
           script: {
             type: 'text',
             subtitles: 'false',
-            provider: { type: 'microsoft', voice_id: 'en-US-ChristopherNeural' },
+            provider: { type: 'microsoft', voice_id: 'en-US-JennyNeural' },
             ssml: true,
             input: userInput // Use the user input as the input value
           },
