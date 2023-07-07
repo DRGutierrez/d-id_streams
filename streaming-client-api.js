@@ -59,46 +59,50 @@ connectButton.onclick = async () => {
 
 const talkButton = document.getElementById('talk-button');
 talkButton.onclick = async () => {
-  // Get the user input from the text input field
-    if (peerConnection?.signalingState === 'stable' || peerConnection?.iceConnectionState === 'connected') {
-      const userInput = document.getElementById('user-input-field').value; // Get the user's input from the input field
-  
-      const talkResponse = await fetch(`${DID_API.url}/talks/streams/${streamId}`, {
-        method: 'POST',
-        headers: { Authorization: `Basic ${DID_API.key}`, 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          script: {
-            type: 'text',
-            subtitles: 'false',
-            provider: { type: 'microsoft', voice_id: 'en-US-JennyNeural' },
-            ssml: true,
-            input: userInput // Use the user input as the input value
+ 
+  if (peerConnection?.signalingState === 'stable' || peerConnection?.iceConnectionState === 'connected') {
+    // Fetch the user input from an external text file
+    const scriptPath = new URL('response-text-file.txt', import.meta.url).pathname;
+    const response = await fetch(scriptPath);  
+    const userInput = await response.text(); // Get the text from the response
+    
+    const talkResponse = await fetch(`${DID_API.url}/talks/streams/${streamId}`, {
+      method: 'POST',
+      headers: { Authorization: `Basic ${DID_API.key}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        script: {
+          type: 'text',
+          subtitles: 'false',
+          provider: { type: 'microsoft', voice_id: 'en-US-JennyNeural' },
+          ssml: true,
+          input: userInput // Use the user input from the external file
+        },
+        config: {
+          fluent: true,
+          pad_audio: 0,
+          driver_expressions: {
+            expressions: [{ expression: 'neutral', start_frame: 0, intensity: 0 }],
+            transition_frames: 0
           },
-          config: {
-            fluent: true,
-            pad_audio: 0,
-            driver_expressions: {
-              expressions: [{ expression: 'neutral', start_frame: 0, intensity: 0 }],
-              transition_frames: 0
-            },
-            align_driver: true,
-            align_expand_factor: 0,
-            auto_match: true,
-            motion_factor: 0,
-            normalization_factor: 0,
-            sharpen: true,
-            stitch: true,
-            result_format: 'mp4'
-          },
-          'driver_url': 'bank://lively/',
-          'config': {
-            'stitch': true,
-          },
-          'session_id': sessionId
-        })
-      });
-    }
-  };
+          align_driver: true,
+          align_expand_factor: 0,
+          auto_match: true,
+          motion_factor: 0,
+          normalization_factor: 0,
+          sharpen: true,
+          stitch: true,
+          result_format: 'mp4'
+        },
+        'driver_url': 'bank://lively/',
+        'config': {
+          'stitch': true,
+        },
+        'session_id': sessionId
+      })
+    });
+  }
+};
+
 
 const destroyButton = document.getElementById('destroy-button');
 destroyButton.onclick = async () => {
